@@ -59,9 +59,8 @@
     </main>
     <script>
       function goToPm() {
-        var tel = document.getElementById('tel').value;
-        var corrected = tel.replace(/^./,'98');
-        window.open('https://wa.me/' + corrected, '_blank');
+        var tel = document.getElementById('tel').value.replace(/^./,'98');
+        window.open('https://wa.me/' + tel, '_blank');
       }
     </script>
   </body>
