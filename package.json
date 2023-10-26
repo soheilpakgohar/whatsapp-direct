@@ -4,7 +4,7 @@
   "description": "whats to unknown person",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx tailwindcss -i ./style.css -o ./app.css --watch"
   },
   "author": "soheilpakgohar",
   "license": "MIT",
